@@ -1,5 +1,5 @@
 class profile {
   include git
   include ntp
-  include ssh::server
+  include ssh::client
 }
